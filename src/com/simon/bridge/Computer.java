@@ -1,4 +1,4 @@
-package com.bridge;
+package com.simon.bridge;
 /**
  * 定义电脑的接口，应为子类需要使用共同的属性，所以定义一个抽象类
  * @author simon

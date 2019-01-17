@@ -5,4 +5,4 @@
  * @author simon
  *
  */
-package com.bridge;
+package com.simon.bridge;
