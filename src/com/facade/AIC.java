@@ -1,9 +1,0 @@
-package com.facade;
-/**
- * ¹¤ÉÌ¾Ö
- * @author Administrator
- *
- */
-public interface AIC {
-	void checkName();
-}
