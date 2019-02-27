@@ -9,7 +9,6 @@ public class Client {
 		Target t = new Adapter(a);
 		//执行适配的方法
 		t.handleReq();
-		
 	}
 
 }

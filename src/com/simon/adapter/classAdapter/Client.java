@@ -7,7 +7,6 @@ public class Client {
 		Target t = new Adapter();
 		//通过适配器的方法，可以访问到目标方法
 		t.handleReq();
-		
 	}
 
 }
