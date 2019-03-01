@@ -1,5 +1,9 @@
 package com.simon.proxy.staticProxy;
-
+/**
+ * 定义一个具体的明星
+ * @author Administrator
+ *
+ */
 public class RealStar implements Star {
 
 	@Override

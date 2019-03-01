@@ -1,5 +1,9 @@
 package com.simon.proxy.staticProxy;
-
+/**
+ * 定义一个明星抽象接口
+ * @author Administrator
+ *
+ */
 public interface Star {
 	/**
 	 * 面谈

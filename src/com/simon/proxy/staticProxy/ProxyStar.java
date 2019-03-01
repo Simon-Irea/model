@@ -1,5 +1,9 @@
 package com.simon.proxy.staticProxy;
-
+/**
+ * 代理类，继承明星类
+ * @author Administrator
+ *
+ */
 public class ProxyStar implements Star {
 
 	private Star star = new RealStar();
