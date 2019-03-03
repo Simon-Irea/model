@@ -1,15 +1,15 @@
-package com.simon.adapter.combinationAdapter;
+package com.simon.adapter.defaultAdapter;
 
 /**
- * 适配器本身
- * @author Administrator
+ * 具体的适配器
+ * @author simon
  *
  */
-public class Adapter implements Target {
+public class RealAdapter extends Adapter{
 	//使用组合的方式，将需要适配的类注入进来，该对象可以表示一个抽象类，也可以表示一个接口
 	private Adaptee adaptee;
-	
-	public Adapter(Adaptee adaptee) {
+
+	public RealAdapter(Adaptee adaptee) {
 		this.adaptee = adaptee;
 	}
 
@@ -20,9 +20,10 @@ public class Adapter implements Target {
 	public void setAdaptee(Adaptee adaptee) {
 		this.adaptee = adaptee;
 	}
-
+	
 	@Override
-	public void handleReq() {
+	public void eat() {
+
 		adaptee.request();
 	}
 

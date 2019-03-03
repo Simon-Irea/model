@@ -5,4 +5,4 @@
  * @author Administrator
  *
  */
-package com.simon.adapter.combinationAdapter;
+package com.simon.adapter.objectAdapter;

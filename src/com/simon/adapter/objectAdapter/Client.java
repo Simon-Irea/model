@@ -1,4 +1,4 @@
-package com.simon.adapter.combinationAdapter;
+package com.simon.adapter.objectAdapter;
 
 public class Client {
 	

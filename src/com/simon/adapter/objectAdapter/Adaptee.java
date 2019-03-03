@@ -1,4 +1,4 @@
-package com.simon.adapter.combinationAdapter;
+package com.simon.adapter.objectAdapter;
 /**
  * ±»ÊÊÅäµÄÀà
  * @author Administrator
