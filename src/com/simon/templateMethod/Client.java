@@ -6,12 +6,12 @@ public class Client {
 		BankTemplateMethod btm = new DrawMoney();
 		btm.process();
 		
-		//采用匿名内部类
+		//
 		BankTemplateMethod btm2 = new BankTemplateMethod() {
 			
 			@Override
 			public void transact() {
-				System.out.println("我要存钱");
+				System.out.println("");
 			}
 		};
 		

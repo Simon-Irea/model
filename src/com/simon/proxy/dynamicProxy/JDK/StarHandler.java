@@ -3,13 +3,14 @@ package com.simon.proxy.dynamicProxy.JDK;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 /**
- * ¶¨ÒåÒ»¸ö´¦ÀíÆ÷Àà
+ * ä»£ç†ç±»
  * @author simon
  *
  */
 public class StarHandler implements InvocationHandler {
 	Star realStar;
-	
+
+
 	public StarHandler(Star realStar) {
 		super();
 		this.realStar = realStar;
@@ -18,13 +19,13 @@ public class StarHandler implements InvocationHandler {
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		Object object = null;
-		System.out.println("ÕæÕıµÄ·½·¨Ö´ĞĞÇ°");
+		System.out.println("æ–¹æ³•æ‰§è¡Œå‰");
 		System.out.println("=====================");
 		if(method.getName().equals("sing")) {
 			method.invoke(realStar, args);
 		}
 		System.out.println("=====================");
-		System.out.println("ÕæÕıµÄ·½·¨Ö´ĞĞºó");
+		System.out.println("æ–¹æ³•æ‰§è¡Œå");
 		return object;
 	}
 

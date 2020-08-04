@@ -21,7 +21,7 @@ public class RealStar implements Star {
 
 	@Override
 	public void sing() {
-		System.out.println("ÖÜ½ÜÂ×");
+		System.out.println("");
 	}
 
 	@Override
